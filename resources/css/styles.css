@@ -33,8 +33,16 @@ header ul {
 header li {
     padding: .625rem;
 }
-header a {
+header li a {
     color:rgb(248, 191, 134);
+}
+header li:hover {
+    background-color:rgb(248, 191, 134);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+header li:hover a {
+    color: rgb(10, 159, 146);
 }
 /* Banner section */
 .banner h1 {
@@ -58,6 +66,10 @@ header a {
 .meet-up a {
     color: rgb(78, 102, 235);
     text-decoration: underline;
+}
+.meet-up a:hover {
+    color: rgb(36, 55, 159);
+    text-decoration: none;
 }
 @media only screen and (max-width: 1000px) {
     .meet-up {
