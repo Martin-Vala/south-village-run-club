@@ -1,0 +1,146 @@
+/* Universal styles */
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(248, 191, 134);
+}
+h2 {
+    color: rgb(255, 255, 0);
+    font-size: 2rem;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1700px) {
+    html {
+        font-size: 14px;
+    }
+}
+/* Header section */
+header {
+    background-color:rgb(10, 159, 146);
+    padding: 1.56rem 0 0 0;
+}
+header ul {
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    max-width: 600px;
+}
+header li {
+    padding: .625rem;
+}
+header a {
+    color:rgb(248, 191, 134);
+}
+/* Banner section */
+.banner h1 {
+    color: rgb(232, 138, 45);
+    background-color: rgb(118, 88, 58);
+    text-align: center;
+    font-size: 3rem;
+    padding: 1.875rem 0;
+    margin: 15rem 0;
+    font-weight: bold;
+}
+/* Meet up section */
+.meet-up {
+    margin: 0 2.5rem;
+    line-height: 2;
+}
+.meet-up p {
+    color: white;
+    font-size: 1.4rem;
+}
+.meet-up a {
+    color: rgb(78, 102, 235);
+    text-decoration: underline;
+}
+@media only screen and (max-width: 1000px) {
+    .meet-up {
+        text-align: center;
+        margin: 0 10%;
+    }
+}
+/* Images section */
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin: 3.125rem 1.25rem;
+}
+.images img {
+    max-width: 550px;
+    min-width: 250px;
+    padding: 1.25rem;
+    border-radius: 30px;
+}
+@media only screen and (max-width: 1000px) {
+    .images {
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 3.125rem 3rem;
+    }
+    .images img {
+        max-width: 100%;
+    }
+}
+/* Review section */
+.review {
+    color: rgb(255, 255, 0);
+    background-color:rgb(10, 159, 146);
+    padding: 3.75rem 2.5rem;
+}
+.review h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+}
+@media only screen and (max-width: 1000px) {
+    .review h2 {
+        font-size: 1.8rem;
+    }
+}
+/* Come join section */
+.come-join {
+    text-align: center;
+    padding: 0 3rem;
+}
+.come-join h2 {
+    padding: 1.875rem;
+}
+.come-join img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+@media only screen and (max-width: 1000px) {
+    .come-join img {
+        width: 100%;
+    }
+}
+/* Footer */
+footer {
+    background-color:rgb(10, 159, 146);
+    padding: 1.25rem 0;
+    margin-top: 2.5rem;
+}
+footer ul {
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    max-width: 600px;
+}
+footer li {
+    padding: .625rem;
+}
+footer a {
+    color:rgb(248, 191, 134);
+}
